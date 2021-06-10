@@ -5,9 +5,11 @@ The paper is published in IEEE Journal of Selected Topics in Applied Earth Obser
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9201373
 
 $Install on Windons 10
+
 1.Ensure you have installed tensorflow1.0+ in your enviroment.
 
-$Usage 
+$Authors
 
-$Loss function 
+Wenkai Li -owner of patent of the PBLC algorithm
 
+May Hu -editor
