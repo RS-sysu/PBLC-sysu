@@ -1,0 +1,8 @@
+GLM_PBL_b works pretty well!
+
+ANN_PBL_b: 
+	- if the true value of c is provided, it works pretty well
+	- if c is estimated during optimization, c is probably overestimated and Pr(y = 1 | x) is underestimated
+	- adding a constraint to force that the maximum prediction of Pr(y = 1 | x) equals 1 can estimate of c more reliable and accurate 
+		- max_pr_y1 = 1.0	
+		- lamda2 * tf.nn.l2_loss(tf.subtract(tf.reduce_max(prediction), max_pr_y1))
