@@ -11,6 +11,12 @@ $Install on Windons 10 / Linux
 
 1.Ensure you have installed tensorflow1.0+ in your enviroment.
 
+$Data：./TF/data
+This folder contains simple train data and test data based on Species Distribution Model.
+
+$Train:
+In the model folder, there are two networks：ANN and GLM. you can choose the model you need in the train.py. 
+
 $Authors
 
 Wenkai Li -owner of patent of the PBLC algorithm
