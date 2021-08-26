@@ -15,7 +15,7 @@ $Data：./TF/data
 This folder contains simple train data and test data based on Species Distribution Model.
 
 $Train:
-In the model folder, there are two networks：ANN and GLM. you can choose the model you need in the train.py. 
+In the model folder, there are two networks：ANN and GLM. And you can choose the model you need in the train.py. In addition, the network needs the train data、the numble of features、the path saved your model and the test data. Your network is working when running the train.py.
 
 $Authors
 
