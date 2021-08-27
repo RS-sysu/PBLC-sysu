@@ -16,6 +16,13 @@ This folder contains simple train data and test data based on Species Distributi
 
 $Train:
 In the model folder, there are two networks：ANN and GLM. And you can choose the model you need in the train.py. In addition, the network needs the train data、the numble of features、the path saved your model and the test data. Your network is working when running the train.py.
+training data: train_data.csv
+test data: test_data.csv
+predicted probability: ./result/
+class prior: Pr(y = 1) = 0.5
+number of positive data: 1000
+number of background data: 5000
+true value of c: 1000 / (1000 + 5000 * 0.5) = 0.2857
 
 $Authors
 
